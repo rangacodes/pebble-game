@@ -5,6 +5,7 @@ import Pages from 'vite-plugin-pages';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/pebble-game/',
   plugins: [
     react(),
     Pages({
